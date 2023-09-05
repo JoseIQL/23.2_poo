@@ -4,7 +4,7 @@ import house.WildCat;
 
 public class Main {
     public static void main(String[] args) {
-        SilentCat miMichi = new SilentCat();
+        WildCat miMichi = new WildCat();
         miMichi.setEnergy(1);
         miMichi.setAge(6);
         miMichi.setColor(1);
