@@ -1,24 +1,6 @@
 import house.Cat;
-
-// HERENCIA
-class SilentCat extends Cat {
-        public String jump() {
-            if (getEnergy() >= 10)
-                return "Tired";
-            setEnergy(getEnergy() + 1);
-            return "....";
-        }
-
-}
-class WildCat extends Cat{
-    public String jump() {
-        if (getEnergy() >=10)
-            return "Tired";
-        setEnergy(getEnergy() + 5);
-        return "rrrrrrrrr";
-    }
-
-}
+import house.SilentCat;
+import house.WildCat;
 
 public class Main {
     public static void main(String[] args) {
