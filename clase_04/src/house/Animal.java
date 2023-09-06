@@ -2,6 +2,7 @@ package house;
 
 public class Animal {
 //    ATRIBUTOS
+    private String name;
     private int age;
     private int color;
     private int energy;
@@ -29,5 +30,13 @@ public class Animal {
 
     public void setEnergy(int energy) {
         this.energy = energy;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
