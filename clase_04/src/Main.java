@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         SilentCat bolaDeNieve = new SilentCat();
         WildCat miMichi = new WildCat();
-
+//bolaDeNieve y miMichi son los objetos.
         bolaDeNieve.setEnergy(1);
         bolaDeNieve.setAge(6);
         bolaDeNieve.setColor(1);
@@ -16,6 +16,7 @@ public class Main {
         miMichi.setAge(6);
         miMichi.setColor(1);
         miMichi.setName("Mi michi");
+
         System.out.println("Rutina de entrenamiento\n");
         for (int i = 0; i < 4; i++) {
             miMichi.jump();
