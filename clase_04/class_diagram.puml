@@ -1,0 +1,40 @@
+@startuml
+class house.WildCat {
++ String jump()
+}
+class house.Animal {
+- String name
+- int age
+- int color
+- int energy
++ int getAge()
++ void setAge(int)
++ int getColor()
++ void setColor(int)
++ int getEnergy()
++ void setEnergy(int)
++ String getName()
++ void setName(String)
+}
+class Main {
++ {static} void main(String[])
+}
+class house.SilentCat {
++ String jump()
+}
+class house.Turtle {
+- int speed
++ int getSpeed()
++ void setSpeed(int)
++ String swim()
+}
+abstract class house.Cat {
++ {abstract}String jump()
+}
+
+
+house.Cat <|-- house.WildCat
+house.Cat <|-- house.SilentCat
+house.Animal <|-- house.Turtle
+house.Animal <|-- house.Cat
+@enduml
